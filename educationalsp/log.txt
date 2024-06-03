@@ -1,0 +1,2 @@
+[educationalsp]2024/06/03 11:22:24 main.go:12: Logger started!
+[educationalsp]2024/06/03 11:22:24 main.go:30: Received msg with method: initialize
