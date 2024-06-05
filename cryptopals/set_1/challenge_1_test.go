@@ -1,4 +1,4 @@
-package hexbase64
+package HexToBase64
 
 import (
 	"testing"
@@ -20,4 +20,5 @@ func TextHexToBase(t *testing.T) {
 	if err == nil {
 		t.Errorf("Expected an error for invalid hex string, but got nil")
 	}
+
 }
