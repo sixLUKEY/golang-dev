@@ -8,7 +8,7 @@ import (
 func XORBuffers(buf1, buf2 []byte) ([]byte, error) {
 	// check if the lengths of the buffers are equal
 	if len(buf1) != len(buf2) {
-		return nil, errors.New("Buffers have the same length")
+		return nil, errors.New("Buffers need to have the same length")
 	}
 
 	// Create a slice to hold the result
