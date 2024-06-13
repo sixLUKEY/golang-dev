@@ -1,3 +1,3 @@
-[educationalsp]2024/06/13 15:27:42 main.go:14: Logger started!
-[educationalsp]2024/06/13 15:27:42 main.go:32: Received msg with method: initialize
-[educationalsp]2024/06/13 15:27:42 main.go:41: Connected to: Neovim 0.10.0-dev
+[educationalsp]2024/06/13 19:34:01 main.go:14: Logger started!
+[educationalsp]2024/06/13 19:34:01 main.go:32: Received msg with method: initialize
+[educationalsp]2024/06/13 19:34:01 main.go:41: Connected to: Neovim 0.10.0-dev
