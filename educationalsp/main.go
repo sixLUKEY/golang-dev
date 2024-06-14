@@ -31,11 +31,15 @@ func main() {
 func handleMessage(logger *log.Logger, method string, contents []byte) {
 	logger.Printf("Received msg with method: %s", method)
 
-  switch method {
-    case "initialize":
-      var request lsp.InitialiseRequest
-      if err := json.Unmarshal(contents, &request);
-  }
+	switch method {
+	case "initialize":
+		var request lsp.InitialiseRequest
+		if err := json.Unmarshal(contents, &request); err != nil {
+			logger.Printf("Could not parse this: %s", err)
+		}
+
+		logger.Printf("Connected to: %s %s", request.Params.ClientInfo.Name, request.Params.ClientInfo.Version)
+	}
 }
 
 func getLogger(filename string) *log.Logger {
